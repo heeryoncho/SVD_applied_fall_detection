@@ -1,7 +1,7 @@
 # Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection
-This is a code for the 2019 Electronics Letters paper [Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection] () by Heeryon Cho and Sang Min Yoon.
+This is a code for the 2019 Electronics Letters paper [Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection](https://www.growkudos.com/publications/10.1049%25252Fel.2018.6117/reader) by Heeryon Cho and Sang Min Yoon.
 
-![](https://github.com/heeryoncho/SVD_applied_fall_detection/blob/master/fig/LOSO_Accuracy.pdf)
+![](https://github.com/heeryoncho/SVD_applied_fall_detection/blob/master/fig/LOSO_Accuracy.png)
 
 ## Requirements
 This code runs with:
