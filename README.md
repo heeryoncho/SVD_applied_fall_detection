@@ -16,6 +16,11 @@ Please download the following three Human Activity Recognition benchmark dataset
 * [UMAFall] (https://figshare.com/articles/UMA_ADL_FALL_Dataset_zip/4214283)
 * [UniMiB] (http://www.sal.disco.unimib.it/technologies/unimib-shar/)
 
+## Remarks
+1. Place the unzipped benchmark dataset into the 'raw_dataset' folder. Refer to the directory structure given in the 'raw_dataset' folder's readme.txt.
+2. Generate processed (raw or dimension reduced) data by executing codes marked 'gen_XXX.py'. A sample data is given for 'umafall/gen_umafall_dataset_kpca.py'.
+3. Build and evaluate 1D CNN models. A sample model is given for 'umafall/umafall_kpca_conv1d_10.py'.
+
 ## Citation
 If you find this useful, please cite our work as follows:
 ```
