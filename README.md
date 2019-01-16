@@ -1,5 +1,5 @@
 # Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection
-This is a code for the 2019 Electronics Letters paper [Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection](https://www.growkudos.com/publications/10.1049%25252Fel.2018.6117/reader) by Heeryon Cho and Sang Min Yoon.
+This is the code for the 2019 Electronics Letters paper [Applying Singular Value Decomposition on Accelerometer Data for 1D Convolutional Neural Network Based Fall Detection](https://www.growkudos.com/publications/10.1049%25252Fel.2018.6117/reader) by Heeryon Cho and Sang Min Yoon.
 
 ![](https://github.com/heeryoncho/SVD_applied_fall_detection/blob/master/fig/LOSO_Accuracy.png)
 
@@ -18,8 +18,8 @@ Please download the following three Human Activity Recognition benchmark dataset
 
 ## Remarks
 1. Place the unzipped benchmark dataset into the 'raw_dataset' folder. Refer to the directory structure given in the 'raw_dataset' folder's readme.txt.
-2. Generate processed (raw or dimension reduced) data by executing codes marked 'gen_XXX.py'. A sample data is given for 'umafall/gen_umafall_dataset_kpca.py'.
-3. Build and evaluate 1D CNN models. A sample model is given for 'umafall/umafall_kpca_conv1d_10.py'.
+2. Generate processed (raw or dimension reduced) data by executing codes marked 'gen_XXX.py'. A sample data, generated using the code 'umafall/gen_umafall_dataset_kpca.py', is given inside 'umafall/data/' folder (Two pickle files: X_umafall_kpca.p & y_umafall_kpca.p).
+3. Build and evaluate 1D CNN models. A sample model, generated using the code 'umafall/umafall_kpca_conv1d_10.py', is given inside 'umafall/model/umafall_kpca_conv1d_10/' folder.
 
 ## Citation
 If you find this useful, please cite our work as follows:
