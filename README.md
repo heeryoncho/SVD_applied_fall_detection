@@ -29,6 +29,9 @@ If you find this useful, please cite our work as follows:
   title     = {Applying Singular Value Decomposition on Accelerometer Data for 
                1D Convolutional Neural Network Based Fall Detection},
   journal   = {Electronics Letters},
+  volume    = {55},
+  number    = {6},
+  pages     = {320--322},
   doi       = {10.1049/el.2018.6117},
   year      = {2019},
 }
