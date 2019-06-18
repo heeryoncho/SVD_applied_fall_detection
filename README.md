@@ -17,7 +17,7 @@ Please download the following three Human Activity Recognition benchmark dataset
 * [UniMiB] (http://www.sal.disco.unimib.it/technologies/unimib-shar/)
 
 ## Remarks
-1. Place the unzipped benchmark dataset into the 'raw_dataset' folder. Refer to the directory structure given in the 'raw_dataset' folder's readme.txt.
+1. Place the unzipped benchmark dataset into the 'raw_dataset' folder. Refer to the directory structure given in the 'raw_dataset' folder's readme.txt. (Note: For UniMiB data, you first need to convert the .mat files to .csv files using the 'convert_mat2csv.py' code located inside the UniMiB folder.)
 2. Generate processed (raw or dimension reduced) data by executing codes marked 'gen_XXX.py'. A sample data, generated using the code 'umafall/gen_umafall_dataset_kpca.py', is given inside 'umafall/data/' folder (Two pickle files: X_umafall_kpca.p & y_umafall_kpca.p).
 3. Build and evaluate 1D CNN models. A sample model, generated using the code 'umafall/umafall_kpca_conv1d_10.py', is given inside 'umafall/model/umafall_kpca_conv1d_10/' folder.
 
