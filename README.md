@@ -12,9 +12,9 @@ This code runs with:
 
 ## Downloading Fall Recognition Datasets
 Please download the following three Human Activity Recognition benchmark datasets (which include fall activities) from the respective sites and place them inside the 'raw_dataset' folder.
-* [SisFall] (http://sistemic.udea.edu.co/en/research/projects/english-falls/)
-* [UMAFall] (https://figshare.com/articles/UMA_ADL_FALL_Dataset_zip/4214283)
-* [UniMiB] (http://www.sal.disco.unimib.it/technologies/unimib-shar/)
+* **SisFall** (http://sistemic.udea.edu.co/en/research/projects/english-falls/)
+* **UMAFall** (https://figshare.com/articles/UMA_ADL_FALL_Dataset_zip/4214283/6) [version 6]
+* **UniMiB** (http://www.sal.disco.unimib.it/technologies/unimib-shar/)
 
 ## Remarks
 1. Place the unzipped benchmark dataset into the 'raw_dataset' folder. Refer to the directory structure given in the 'raw_dataset' folder's readme.txt. (Note: For UniMiB data, you first need to convert the .mat files to .csv files using the 'convert_mat2csv.py' code located inside the UniMiB folder.)
